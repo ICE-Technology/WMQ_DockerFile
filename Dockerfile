@@ -1,4 +1,4 @@
-FROM ibmcom/mq
+FROM iceteam/wmq
 RUN useradd johndoe -G mqm && \
     echo johndoe:passw0rd | chpasswd
 COPY config.mqsc /etc/mqm/
