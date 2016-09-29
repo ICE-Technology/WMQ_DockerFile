@@ -1,3 +1,4 @@
+define qlocal (Q1)
 DEFINE CHANNEL(PASSWORD.SVRCONN) CHLTYPE(SVRCONN)
 SET CHLAUTH(PASSWORD.SVRCONN) TYPE(BLOCKUSER) USERLIST('nobody') +
 DESCR('Allow privileged users on this channel')
